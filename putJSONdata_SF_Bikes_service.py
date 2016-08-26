@@ -27,19 +27,6 @@ from functools import lru_cache
 import requests
 import time
 
-import win32api
-import win32con
-import win32evtlog
-import win32security
-import win32evtlogutil
-
-ph = win32api.GetCurrentProcess()
-th = win32security.OpenProcessToken(ph, win32con.TOKEN_READ)
-my_sid = win32security.GetTokenInformation(th, win32security.TokenUser)[0]
-applicationName = "UFL_Service_Bikes"
-eventID = 1
-category = 5	# Shell
-   
 
 
 # Suppress insecure HTTPS warnings, if an untrusted certificate is used by the target endpoint
