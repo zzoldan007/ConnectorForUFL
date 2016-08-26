@@ -24,7 +24,7 @@ You will need the PI Connector for UFL and a PI System (Including PI Data archiv
 - Select LOCAL for incoming timestamps 
 -	Run the command below to send the data:
 
-`Python putJSONdata_SF_Bikes.py https://{servername}:{port}/connectordata/SF_Live_Bikes`
+`Python putJSONdata_SF_Bikes_service.py https://{servername}:{port}/connectordata/SF_Live_Bikes`
 - You can now see the PI AF elements which have been created by the Connector in your PI AF database (if applicable). You can also see two PI Points created for each bike station (UFL.{StationID}.AvailDocks and UFL.{StationID}.AvailBikes)
  
 # Notes the Parsing of JSON data
