@@ -36,26 +36,26 @@ Using the Pretty Print Method, we can split this up into a much more usable form
 ```
 {
             "altitude": "",
-            "availableBikes": 20,
-            "availableDocks": 11,
-            "city": "San Francisco",
-            "id": 90,
+            "availableBikes": 8,
+            "availableDocks": 7,
+            "city": "Mountain View",
+            "id": 30,
             "is_renting": true,
-            "landMark": "San Francisco",
+            "landMark": "Mountain View",
             "lastCommunicationTime": null,
-            "latitude": 37.780148,
+            "latitude": 37.395337,
             "location": "",
-            "longitude": -122.403158,
+            "longitude": -122.052476,
             "postalCode": "",
             "renting": true,
-            "stAddress1": "5th St at Folsom St",
-            "stAddress2": "",
-            "stationName": "5th St at Folsom St",
+            "stAddress1": "Middlefield Light Rail Station",
+            "stAddress2": "Evelyn Avenue",
+            "stationName": "Middlefield Light Rail Station",
             "statusKey": 1,
             "statusValue": "In Service",
             "testStation": false,
-            "totalDocks": 31
-},
+            "totalDocks": 15
+        },
 ```
 
 # Automation
