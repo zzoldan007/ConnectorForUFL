@@ -5,6 +5,8 @@ This sample will show how to use the PI Connector for UFL to parse data in the f
 # Contents 
 - A Python script which is designed to get the publicly available data and send it to the Connector’s REST endpoint. 
 - A sample INI file which shows how to parse the JSON file
+- A sample data file from the Connector's directory in %programdata%
+- A BAT file designed for easy deployment of the Python script with Windows Task Scheduler.
  
 # Getting Started
 You will need the PI Connector for UFL and a PI System (Including PI Data archive and PI AF). It is possible to continue without the use of PI AF, just disregard the parts of the INI which create PI AF elements. The INI file is used to parse public bike share data from San Francisco’s bike sharing system, “Bay Area Bike Share”. The JSON is located here: http://feeds.bayareabikeshare.com/stations/stations.json
