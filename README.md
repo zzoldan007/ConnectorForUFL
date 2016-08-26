@@ -61,6 +61,9 @@ Using the Pretty Print Method, we can split this up into a much more usable form
 # Automation
 This data is updated every 10-20 minutes, so you may want to run the script that often. In order to automate password requests, the username/password were hardcoded in the script. We can call it repetitively using Windows Task Scheduler. In this case, we are launching the script in a BAT file to include all necessary arguments. 
 
+# Expansion
+As mentioned in the header, many bike sharing systems use the same or very similarly formatted files for their open data. Using the [GBFS Specification](https://github.com/NABSA/gbfs) we can add in data from other bike sharing systems such as Montreal's, New York City's, Toronto's, Philadelhia's and Boston's systems. We can then just add the calls to those Python scripts in the BAT file, to be deployed whenever we want. 
+
 # PI Square
 You can discuss this project on PI Square, associated with [this PI Square blog post.](https://pisquare.osisoft.com/community/all-things-pi/pi-interfaces/blog/2016/08/19/building-a-pi-af-hierarchy-using-the-pi-connector-for-ufl)
 
