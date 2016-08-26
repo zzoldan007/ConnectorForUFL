@@ -31,7 +31,7 @@ You will need the PI Connector for UFL and a PI System (Including PI Data archiv
 The original JSON data file arrives unformatted and it is not straightforward for the Connector to parse it. We have several JSON elements, or bike stations, on one continuous line. 
 `{"executionTime":"2016-08-26 06:07:17 AM","stationBeanList":[{"id":2,"stationName":"San Jose Diridon Caltrain Station","availableDocks":6,"totalDocks":27,"latitude":37.329732,"longitude":-121.901782,"statusValue":"In Service","statusKey":1,"availableBikes":20,"stAddress1":"San Jose Diridon Caltrain Station","stAddress2":"","city":"San Jose","postalCode":"`
 
-Using the Pretty Print Method, we can split this up into a much more usable form:
+Using the *Pretty Print* Method, we can split this up into a much more usable form:
 
 ```
 {
