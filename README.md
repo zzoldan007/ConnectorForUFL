@@ -58,6 +58,9 @@ Using the Pretty Print Method, we can split this up into a much more usable form
         },
 ```
 
+# Creating PI AF elements
+More information on how to create PI AF elements with the PI Connector for UFL is included in the PI Square post, which is linked below. In the screenshot included, you can see the PI AF element corresponding to the bike share system's data except above. All attributes besides those in the *KPI* category are created using the Connector. 
+
 # Automation
 This data is updated every 10-20 minutes, so you may want to run the script that often. In order to automate password requests, the username/password were hardcoded in the script. We can call it repetitively using Windows Task Scheduler. In this case, we are launching the script in a BAT file to include all necessary arguments. 
 
